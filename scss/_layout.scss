@@ -1,0 +1,25 @@
+@import 'variables';
+
+.site-header {
+  background: lighten($light, 2%);
+  border-bottom: 1px solid #e6e9ee;
+  .header-inner { display:flex; align-items:center; justify-content:space-between; padding: 16px 0; }
+  .brand { display:flex; align-items:center; gap: 8px; }
+  .logo { width:40px; height:auto; }
+}
+
+.main-nav {
+  display:flex; align-items:center; gap: 12px;
+  .nav-list { display:flex; gap: 12px; list-style:none; margin:0; padding:0; }
+  .nav-toggle { display:none; }
+}
+
+.container { padding-top: 32px; padding-bottom: 32px; }
+
+.hero { display:grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items:center; padding: 40px 0; }
+.grid-2 { grid-template-columns: 1fr 1fr; }
+.grid-3 { grid-template-columns: repeat(3, 1fr); gap: 24px; }
+
+.card-grid { display:grid; grid-template-columns: repeat(auto-fit, minmax(220px,1fr)); gap: 16px; }
+
+.site-footer { background: $dark; color: #fff; padding: 24px 0; .footer-inner { display:flex; justify-content:space-between; align-items:center; } }

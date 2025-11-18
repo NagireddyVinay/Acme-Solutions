@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Acme Solutions — Home</title>
+  <meta name="description" content="Acme Solutions — Professional business services" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body class="theme-light">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Acme Solutions Home">
+        <img src="assets/logo.svg" alt="Acme Solutions logo" class="logo" />
+        <span class="brand-name">Acme Solutions</span>
+      </a>
+      <nav class="main-nav" role="navigation" aria-label="Main">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
+          <span class="sr-only">Open menu</span>
+          ☰
+        </button>
+        <ul id="primary-menu" class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <button id="theme-toggle" class="theme-btn" aria-pressed="false" title="Toggle dark mode">🌓</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+    <section class="hero grid-2">
+      <div class="hero-copy">
+        <h1>We build experiences that scale your business</h1>
+        <p>Design, web & digital strategy — tailored solutions for growth.</p>
+        <a class="btn primary" href="services.html">Our Services</a>
+      </div>
+      <div class="hero-media">
+        <img src="assets/hero.jpg" alt="Team collaborating" />
+      </div>
+    </section>
+
+    <section class="services-preview">
+      <h2>Featured Services</h2>
+      <div class="card-grid">
+        <article class="card" aria-labelledby="svc1-title">
+          <img src="assets/service1.jpg" alt="Service 1">
+          <h3 id="svc1-title">Digital Strategy</h3>
+          <p>Research-driven strategy that converts prospects to customers.</p>
+        </article>
+        <article class="card" aria-labelledby="svc2-title">
+          <img src="assets/service2.jpg" alt="Service 2">
+          <h3 id="svc2-title">Web Development</h3>
+          <p>Fast, accessible, and responsive websites using modern tooling.</p>
+        </article>
+        <article class="card" aria-labelledby="svc3-title">
+          <img src="assets/service3.jpg" alt="Service 3">
+          <h3 id="svc3-title">Brand Design</h3>
+          <p>Clear brand systems: logos, colors and design guidelines.</p>
+        </article>
+      </div>
+      <a class="btn secondary" href="services.html">See all services</a>
+    </section>
+
+    <section class="testimonials">
+      <h2>What clients say</h2>
+      <div class="testimonial-slider" id="testimonial-slider" aria-roledescription="carousel">
+        <div class="slide" aria-hidden="false">
+          <blockquote>
+            <p>"Acme transformed our site — increased leads by 45%."</p>
+            <cite>— CEO, Example Co.</cite>
+          </blockquote>
+        </div>
+        <div class="slide" aria-hidden="true">
+          <blockquote>
+            <p>"Excellent communication and delivery."</p>
+            <cite>— Marketing Lead, Startup</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div>
+        <h3>Acme Solutions</h3>
+        <p>123 Business St, City • <a href="mailto:hello@acme.example">hello@acme.example</a></p>
+      </div>
+      <nav aria-label="Footer">
+        <ul class="footer-links">
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
